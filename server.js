@@ -11,6 +11,7 @@ const publicFiles = new Map([
   ["/index.html", "index.html"],
   ["/styles.css", "styles.css"],
   ["/script.js", "script.js"],
+  ["/photo.jpg", "photo.jpg"],
 ]);
 const imageContentTypes = new Map([
   [".jpg", "image/jpeg"],
@@ -25,6 +26,7 @@ const contentTypes = {
   ".js": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
   ".svg": "image/svg+xml",
+  ".jpg": :"image/jpeg",
 };
 
 function sendJson(response, statusCode, payload) {
