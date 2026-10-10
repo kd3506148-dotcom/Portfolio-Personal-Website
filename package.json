@@ -1,0 +1,9 @@
+{
+  "name": "professional-student-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A responsive full-stack student portfolio built with Node.js, HTML, CSS, and JavaScript.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
